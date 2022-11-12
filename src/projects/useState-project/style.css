@@ -2,4 +2,25 @@
     height: 100vh;
     width: 100vw;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardContainer{
+    width: 30vw;
+    height: 40vh;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    height: 30px;
+    width: 50px;
+    background: pink;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
