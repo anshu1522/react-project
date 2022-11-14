@@ -1,5 +1,61 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: green;
+    background-color: rgb(167, 199, 167);
+    
+    
  }
+ .header{
+    background-color: aqua;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: fixed;
+    flex-direction: column;
+
+
+ }
+ .body{
+    background-color: rgb(134, 56, 56);
+   min-height:  100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+ }
+ .card{
+    height: 50px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 4px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .delete{
+    font-size: 50px;
+    
+ }
+ .addButton{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+ }
+ 
