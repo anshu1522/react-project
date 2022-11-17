@@ -4,7 +4,7 @@ import Card from './components/Card';
  function IncreaseDecrease() {
     const [num, setNum] = useState(10);
     const increase = () => {
-        num < 10 ? setNum(num + 1) : alert("hathi");
+        num < 10 ? setNum(num + 1) : alert("ghoda");
     }
     const decrease = () => {
         num > 0 && setNum(num - 1);
