@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './style.css';
-import Card from './components/Card'; function IncreaseDecrease() {
+import Card from './components/Card';
+ function IncreaseDecrease() {
     const [num, setNum] = useState(10);
     const increase = () => {
         num < 10 ? setNum(num + 1) : alert("hathi");
