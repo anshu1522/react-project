@@ -1,6 +1,6 @@
 import './style.css';
 import Card from './Card';
-import friends from './data';
+import friends from '../data';
 
 
 function Group(){
