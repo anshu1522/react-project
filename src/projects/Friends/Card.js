@@ -13,7 +13,6 @@ function Card({itemm,setList,indx}){
       })
     }
 
-// console.log('ankit', indx);
     return(
   <div   onAnimationEnd={()=>deleteItems(indx)} 
   className={move ? 'movedClass' : 'visibleClass'}

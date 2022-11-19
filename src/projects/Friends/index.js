@@ -8,7 +8,7 @@ function Friends() {
     setList((start) => {
       return [...start, cap];
     });
-    setCap("");
+    setCap(" ");
   };
   const textCapture = (props) => {
     setCap(props.target.value);
