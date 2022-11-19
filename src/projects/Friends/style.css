@@ -66,4 +66,19 @@
     bottom: 20px;
     position: fixed;
  }
- 
+
+.movedClass{
+   
+   animation: move 5s 
+   
+}
+/* .visibleClass{
+   
+} */
+@keyframes move{
+   100%{
+       transform: translate(5000px);
+      
+   } 
+    
+} 
