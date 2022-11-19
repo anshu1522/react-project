@@ -12,7 +12,6 @@ function Card({itemm,setList,indx}){
         return !prevState
       })
     }
-
     return(
   <div   onAnimationEnd={()=>deleteItems(indx)} 
   className={move ? 'movedClass' : 'visibleClass'}

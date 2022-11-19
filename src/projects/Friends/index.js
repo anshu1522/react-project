@@ -29,7 +29,6 @@ function Friends() {
         {list.map((item,index) => (
           <Card itemm={item} key={index} indx={index} setList={setList} />
         ))}
-
         <div className="addButton">+</div>
       </div>
     </div>
