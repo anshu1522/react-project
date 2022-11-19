@@ -66,6 +66,8 @@
       } 
        
    } 
-  
+  .showedClass{
+animation: move 5s;
+  }
   
   

@@ -1,16 +1,25 @@
 import { useState } from "react"
-function Card({itemm}){
-    const [visible,setVisible]= useState(false)
+function Card({itemm,setGo,indx}){
+    const deleteItems=(keyy)=>{
+        setGo(initialList=>{
+            return initialList.filter((listItem,idx)=>keyy!=idx)
+        })
+    }
+    const [show,setShow]= useState(false)
     const animate= () => {
-       setVisible(prevState => {
+       setShow(prevState => {
         return !prevState
        })
     }
     return(
         <>
+        <div onAnimationEnd={()=>deleteItems(indx)}
+        className={show ? 'showedClass' :'visibleClass'}>
+
             <div className='boxes'>
-            <p style={{ animation:' move 0.8s' }} >{itemm}</p>
+            <p  >{itemm}</p>
            <div className="delete"style={{  }} onClick={animate}>-</div>
+           </div>
            </div>
         </>
     )
