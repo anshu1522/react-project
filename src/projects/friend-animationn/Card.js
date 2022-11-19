@@ -18,7 +18,7 @@ function Card({itemm,setGo,indx}){
 
             <div className='boxes'>
             <p  >{itemm}</p>
-           <div className="delete"style={{  }} onClick={animate}>-</div>
+           <div className="delete" onClick={animate}>-</div>
            </div>
            </div>
         </>

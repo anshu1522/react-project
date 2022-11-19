@@ -14,7 +14,7 @@ function Group(){
 <div className='body'>
     
    {go.map((item,index) => (
-<Card itemm={item} key={index} indx={index} setGo={setGo}/>
+<Card itemm={item}  indx={index} setGo={setGo}/>
    ))}
 </div>
  {/* <div className='addButton' onClick={addEvent}>+</div> */}
