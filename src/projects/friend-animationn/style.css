@@ -20,6 +20,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top:90px;
   
   }
   .boxes {
@@ -62,12 +64,16 @@
   }
   @keyframes move{
       100%{
-          transform: translate(5000px);
+          transform: translate(100vw);
       } 
        
    } 
   .showedClass{
-animation: move 5s;
+animation: move .2s;
+  }
+ 
+  p{
+    transform: rotate3d(5,5,5,-10deg);
   }
   
   

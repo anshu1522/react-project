@@ -14,10 +14,10 @@ function Card({itemm,setGo,indx}){
     return(
         <>
         <div onAnimationEnd={()=>deleteItems(indx)}
-        className={show ? 'showedClass' :'visibleClass'}>
+        className={show && 'showedClass' }>
 
             <div className='boxes'>
-            <p  >{itemm}</p>
+            <p>{itemm}</p>
            <div className="delete" onClick={animate}>-</div>
            </div>
            </div>
