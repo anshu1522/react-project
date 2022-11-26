@@ -1,10 +1,10 @@
 import "./style.css";
 import { useSelector, useDispatch } from "react-redux";
-import { type } from "@testing-library/user-event/dist/type";
 import { incNumber, decNumber } from "./redux/action";
 function Counter() {
   const myState = useSelector((state) => state.ChangeTheNumberReducer);
   const dispatch = useDispatch();
+  const valuee=4;
 
   return (
     <>
@@ -14,7 +14,7 @@ function Counter() {
           <div>Using react redux</div>
         </div>
         <div className="body">
-          <div className="add" onClick={() => dispatch(incNumber())}>
+          <div className="add" onClick={() => dispatch(incNumber(valuee))}>
             +
           </div>
           <div>{myState}</div>
