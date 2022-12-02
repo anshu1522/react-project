@@ -1,0 +1,105 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.middle{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(226, 222, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.male{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.female{
+    border: 1px solid black;
+    padding: 10px;
+}
+.child{
+    border: 1px solid black;
+    padding: 10px;
+}
+.bodyy{
+   min-height:100% ;
+    width: 100vw;
+   background-color: rgb(156, 163, 161);
+   border: 1px solid black;
+   display: flex;
+   left:float;
+   justify-content: center;
+   
+}
+.bodymen{
+    display: block;
+}
+.bodywomen{
+    display: block;
+}
+.bodychild{
+    display: block;
+}
+.boxes{
+    width: 130px;
+    height: 80px;
+    background-color: rgb(108, 108, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    /* left: 200px; */
+
+}
+.things{
+    font-size: 20px;
+}
+.add{
+    font-size: 20px;
+}
+.total{
+    border:1px solid black ;
+    position: relative;
+    left:500px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+.male:hover {
+   background: rgb(100, 78, 78);
+
+}
+.female:hover{
+    background: rgb(109, 94, 94);
+}
+.child:hover{
+background:rgb(138, 121, 121) ;
+}
+.add:hover{
+    background: red;
+}
