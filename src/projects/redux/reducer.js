@@ -4,6 +4,5 @@ import ChangeTheValue from "../shopping/redux/reducer";
 ///import reducers
 const rootReducer =combineReducers({
     // ChangeTheNumberReducer,
-    ChangeTheValue
-    });
+    ChangeTheValue });
     export default rootReducer;
