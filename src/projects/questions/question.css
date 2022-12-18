@@ -1,0 +1,33 @@
+.main{
+    
+    width: 100vw;
+
+}
+.ask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* background-color: rgb(168, 177, 177); */
+    font-size: 15px;
+
+    
+}
+.add{
+height:30px ;
+width: 30px;
+border-radius: 50%;
+background-color: azure;
+color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin: 10px;
+}
+h2{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
