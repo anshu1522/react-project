@@ -5,8 +5,8 @@
 // import Group from "./projects/friend-animationn";
 // import Counter from "./projects/react-redux";
 // import Chart from "./projects/shopping";
-import Question from "./projects/questions/question";
-
+// import Question from "./projects/questions/question";
+import Page from "./projects/realapi/page"
 export default function App () {
     return (
         // <Provider store={store}>
@@ -16,7 +16,8 @@ export default function App () {
         /* <Counter/> */
         // <Chart/>
         // </Provider>
-        <Question/>
+        // <Question/>
+        <Page/>
     )
     }
     
