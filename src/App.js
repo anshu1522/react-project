@@ -6,7 +6,8 @@
 // import Counter from "./projects/react-redux";
 // import Chart from "./projects/shopping";
 // import Question from "./projects/questions/question";
-import Page from "./projects/realapi/page"
+// import Page from "./projects/realapi/page"
+import Temp from "./projects/weather app/temp"
 export default function App () {
     return (
         // <Provider store={store}>
@@ -17,7 +18,7 @@ export default function App () {
         // <Chart/>
         // </Provider>
         // <Question/>
-        <Page/>
+        <Temp/>
     )
     }
     
